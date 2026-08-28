@@ -2,13 +2,6 @@
 
 A reproducible ATAC-seq workflow for analyzing chromatin accessibility from paired-end sequencing data. The project combines bioinformatics analysis with workflow automation, containerization, and a shareable analysis report.
 
-## Analysis Workflow
-
-<p align="center">
-  <img src="docs/images/atacseq-workflow.png"
-       alt="ATAC-seq analysis workflow"
-       width="900">
-</p>
 
 ## Overview
 
@@ -36,7 +29,13 @@ Gene X ───── [OPEN chromatin]
 
 A stronger ATAC-seq peak in melanoma cells suggests increased chromatin accessibility at that genomic region. Downstream analysis can then determine whether the region is associated with a promoter or enhancer, which gene it may regulate, and whether specific transcription-factor motifs are enriched.
 
-## Workflow
+## Analysis Workflow
+
+<p align="center">
+  <img src="docs/images/atacseq-workflow.png"
+       alt="ATAC-seq analysis workflow"
+       width="900">
+</p>
 
 ```text id="f6zn0a"
 Paired-end FASTQ
