@@ -55,7 +55,7 @@ multiqc fastqc_results/ -o multiqc_results/
 
 The MultiQC report was reviewed to compare sequencing quality and read depth across the FASTQ files.
 
-**[View the interactive MultiQC report](../results/qc/multiqc_report.html)**
+**[View Interactive MultiQC Report](https://archanaallishe.github.io/Reproducible-ATAC-Seq-Analysis/qc/multiqc_report.html)**
 
 Samples with **fewer than 30 million reads were excluded from further analysis** to maintain sufficient sequencing depth for downstream ATAC-seq processing.
 
