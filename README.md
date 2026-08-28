@@ -1,7 +1,3 @@
-# Reproducible ATAC-Seq Analysis
-
-A reproducible ATAC-seq workflow for analyzing chromatin accessibility from paired-end sequencing data. The project combines bioinformatics analysis with workflow automation, containerization, and a shareable analysis report.
-
 
 ## Overview
 
