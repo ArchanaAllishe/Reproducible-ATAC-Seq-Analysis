@@ -1,12 +1,9 @@
 # Step 2 — BWA-MEM Alignment
 
-## Objective
-
 Paired-end ATAC-seq FASTQ files retained after raw-data QC and sample selection were aligned to the **hg38 human reference genome**.
 
 Alignment assigns the sequencing reads to their genomic locations, providing the basis for identifying regions enriched in ATAC-seq fragments and, subsequently, regions of accessible chromatin.
 
-## Alignment with BWA-MEM
 
 **BWA-MEM** was used to align the paired-end reads to hg38. It is well suited for paired-end genomic DNA sequencing and generates SAM/BAM-compatible alignments that can be processed with downstream tools such as **SAMtools** and **MACS3**.
 
