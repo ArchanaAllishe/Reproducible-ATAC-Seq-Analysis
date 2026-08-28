@@ -1,6 +1,5 @@
 # Step 3 — BAM Filtering and Cleanup
 
-## Objective
 
 Aligned BAM files were filtered to retain high-quality, properly paired nuclear reads and remove unwanted alignments before downstream ATAC-seq analysis.
 
