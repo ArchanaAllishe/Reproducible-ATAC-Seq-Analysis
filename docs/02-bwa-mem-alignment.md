@@ -1,12 +1,8 @@
 # Step 2 — Read Alignment and Alignment Quality Control
 
-## Objective
-
 Paired-end ATAC-seq FASTQ files retained after raw-data QC were aligned to the **hg38 human reference genome**, followed by assessment of alignment quality before downstream BAM filtering.
 
 Alignment assigns sequencing reads to their genomic locations, providing the basis for identifying regions enriched in ATAC-seq fragments and, subsequently, regions of accessible chromatin.
-
-## BWA-MEM Alignment
 
 **BWA-MEM** was used to align the paired-end reads to hg38. It is well suited for paired-end genomic DNA sequencing and produces SAM/BAM-compatible alignments that can be processed with downstream tools such as **SAMtools** and **MACS3**.
 
