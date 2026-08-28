@@ -7,8 +7,6 @@ Paired-end ATAC-seq sequencing files were received from a collaborator for downs
 
 The dataset contained 47 FASTQ files representing 12 samples, with most samples sequenced across two lanes (L1 and L2). These raw FASTQ files served as the starting point for the analysis.
 
-## Input FASTQ Files
-
 The dataset contained **47 FASTQ files** representing 12 samples sequenced across two lanes (L1 and L2), with paired-end reads (R1 and R2).
 
 | Sample  | Lane 1  | Lane 2 |
