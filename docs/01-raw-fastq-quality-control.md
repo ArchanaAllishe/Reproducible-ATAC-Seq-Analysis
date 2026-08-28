@@ -1,8 +1,11 @@
 # Step 1 — Raw FASTQ Quality Control
-
-## Objective
-
 Raw paired-end ATAC-seq FASTQ files were assessed with **FastQC** and **MultiQC** to evaluate sequencing quality and read depth before alignment.
+
+## Data Source
+
+Paired-end ATAC-seq sequencing files were received from a collaborator for downstream bioinformatics analysis.
+
+The dataset contained 47 FASTQ files representing 12 samples, with most samples sequenced across two lanes (L1 and L2). These raw FASTQ files served as the starting point for the analysis.
 
 ## Input FASTQ Files
 
