@@ -3,8 +3,6 @@
 
 ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) identifies regions of the genome where chromatin is open and accessible. These accessible regions often contain regulatory elements, such as promoters and enhancers, that help control gene activity.
 
-### Why ATAC-seq?
-
 ATAC-seq can be used to determine which genomic regions are accessible for gene regulation and how accessibility changes between biological conditions.
 
 For example, when comparing **normal melanocytes and melanoma cells**, a regulatory region near a gene may have low accessibility in normal cells but become highly accessible in melanoma cells:
