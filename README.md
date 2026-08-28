@@ -2,6 +2,14 @@
 
 A reproducible ATAC-seq workflow for analyzing chromatin accessibility from paired-end sequencing data. The project combines bioinformatics analysis with workflow automation, containerization, and a shareable analysis report.
 
+## Analysis Workflow
+
+<p align="center">
+  <img src="docs/images/atacseq-workflow.png"
+       alt="ATAC-seq analysis workflow"
+       width="900">
+</p>
+
 ## Overview
 
 ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) identifies regions of the genome where chromatin is open and accessible. These accessible regions often contain regulatory elements, such as promoters and enhancers, that help control gene activity.
